@@ -114,6 +114,26 @@ button:hover {
   color: #000;
 }
 
+.size {
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 1s ease-in-out;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 8px;
+}
+
+.size:hover {
+  transition: 1s ease-in-out;
+  background: #fff;
+  color: #000;
+}
+
 span {
   margin-top: 12px;
 }
@@ -160,6 +180,12 @@ span {
 
   button {
     width: 90px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+    .size{
+    width: 40px;
     height: 30px;
     font-size: 13px;
   }
@@ -298,7 +324,13 @@ span {
   
 button {
   width: 80px;
-  height: 20px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.size {
+  width: 30px;
+  height: 30px;
   font-size: 10px;
 }
 }
