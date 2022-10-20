@@ -11,10 +11,6 @@ const Dress = ({dress}) => {
                 <img src={`${dress.img}.jpg`} alt="dress"/>
                 <h2>"{dress.name}"</h2>
                 <p className="price">$ {dress.price}</p>
-                <p className="price">SIZE:</p>
-                <button className="size">S</button>
-                <button className="size">M</button>
-                <button className="size">L</button>
                 <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
                 <div className="App">
                 <button  onClick={() => {dispatch(addItemToCart({dress, quantity}));}}>Add to cart</button>
